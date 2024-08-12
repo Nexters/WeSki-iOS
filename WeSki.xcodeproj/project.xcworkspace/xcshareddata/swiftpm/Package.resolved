@@ -1,0 +1,15 @@
+{
+  "originHash" : "c44334cc594d67101d101efa5a3c04eb5ca3a1461fee9a007f480258d19df196",
+  "pins" : [
+    {
+      "identity" : "slidingtabview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QuynhNguyen/SlidingTabView.git",
+      "state" : {
+        "revision" : "b0f0662977418824d50546b2850a523dcd793bb0",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

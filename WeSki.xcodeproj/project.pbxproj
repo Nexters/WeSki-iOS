@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE4F302C47FC72002F777E /* WeSkiApp.swift */; };
-		04BE4F332C47FC72002F777E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE4F322C47FC72002F777E /* ContentView.swift */; };
 		04BE4F352C47FC76002F777E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F342C47FC76002F777E /* Assets.xcassets */; };
 		04BE4F382C47FC76002F777E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F372C47FC76002F777E /* Preview Assets.xcassets */; };
+		04C92AC22C625E3F005F397F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ABF2C625E3F005F397F /* Fonts.swift */; };
+		04C92AC32C625E3F005F397F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC02C625E3F005F397F /* Colors.swift */; };
+		04C92AC42C625E3F005F397F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC12C625E3F005F397F /* Text.swift */; };
+		04C92AC62C625E71005F397F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC52C625E71005F397F /* Color+.swift */; };
+		04C92AC82C625E7A005F397F /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC72C625E7A005F397F /* Font+.swift */; };
+		04C92ACE2C6260B5005F397F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACD2C6260B5005F397F /* MainView.swift */; };
+		04C92AD02C626281005F397F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACF2C626281005F397F /* SplashView.swift */; };
+		04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD12C63BAD4005F397F /* MainResortView.swift */; };
+		04C92AD42C6A4ACE005F397F /* WebCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD32C6A4ACE005F397F /* WebCamView.swift */; };
+		04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD52C6A5600005F397F /* ResortInfoView.swift */; };
+		04C92AD92C6A5BD8005F397F /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 04C92AD82C6A5BD8005F397F /* SlidingTabView */; };
+		04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADA2C6A640A005F397F /* SnowQualityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BE4F2D2C47FC72002F777E /* WeSki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE4F302C47FC72002F777E /* WeSkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSkiApp.swift; sourceTree = "<group>"; };
-		04BE4F322C47FC72002F777E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04BE4F342C47FC76002F777E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE4F372C47FC76002F777E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C92ABF2C625E3F005F397F /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		04C92AC02C625E3F005F397F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		04C92AC12C625E3F005F397F /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		04C92AC52C625E71005F397F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		04C92AC72C625E7A005F397F /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		04C92ACD2C6260B5005F397F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04C92ACF2C626281005F397F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		04C92AD12C63BAD4005F397F /* MainResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResortView.swift; sourceTree = "<group>"; };
+		04C92AD32C6A4ACE005F397F /* WebCamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCamView.swift; sourceTree = "<group>"; };
+		04C92AD52C6A5600005F397F /* ResortInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfoView.swift; sourceTree = "<group>"; };
+		04C92ADA2C6A640A005F397F /* SnowQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowQualityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C92AD92C6A5BD8005F397F /* SlidingTabView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +73,12 @@
 		04BE4F2F2C47FC72002F777E /* WeSki */ = {
 			isa = PBXGroup;
 			children = (
-				04BE4F302C47FC72002F777E /* WeSkiApp.swift */,
-				04BE4F322C47FC72002F777E /* ContentView.swift */,
-				04BE4F342C47FC76002F777E /* Assets.xcassets */,
+				04C92ABD2C625E0C005F397F /* App */,
+				04C92ACA2C625ED2005F397F /* Model */,
+				04C92AC92C625EC9005F397F /* Network */,
+				04C92ACC2C62604B005F397F /* Scene */,
+				04C92ABE2C625E1B005F397F /* DesignSystem */,
+				04C92ACB2C625EE0005F397F /* Resources */,
 				04BE4F362C47FC76002F777E /* Preview Content */,
 			);
 			path = WeSki;
@@ -65,6 +90,61 @@
 				04BE4F372C47FC76002F777E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04C92ABD2C625E0C005F397F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04BE4F302C47FC72002F777E /* WeSkiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04C92ABE2C625E1B005F397F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				04C92AC02C625E3F005F397F /* Colors.swift */,
+				04C92ABF2C625E3F005F397F /* Fonts.swift */,
+				04C92AC12C625E3F005F397F /* Text.swift */,
+				04C92AC52C625E71005F397F /* Color+.swift */,
+				04C92AC72C625E7A005F397F /* Font+.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		04C92AC92C625EC9005F397F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		04C92ACA2C625ED2005F397F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C92ACB2C625EE0005F397F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04BE4F342C47FC76002F777E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04C92ACC2C62604B005F397F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				04C92ACD2C6260B5005F397F /* MainView.swift */,
+				04C92AD12C63BAD4005F397F /* MainResortView.swift */,
+				04C92AD52C6A5600005F397F /* ResortInfoView.swift */,
+				04C92ACF2C626281005F397F /* SplashView.swift */,
+				04C92AD32C6A4ACE005F397F /* WebCamView.swift */,
+				04C92ADA2C6A640A005F397F /* SnowQualityView.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = WeSki;
+			packageProductDependencies = (
+				04C92AD82C6A5BD8005F397F /* SlidingTabView */,
+			);
 			productName = WeSki;
 			productReference = 04BE4F2D2C47FC72002F777E /* WeSki.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 04BE4F242C47FC72002F777E;
+			packageReferences = (
+				04C92AD72C6A5BD8005F397F /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+			);
 			productRefGroup = 04BE4F2E2C47FC72002F777E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BE4F332C47FC72002F777E /* ContentView.swift in Sources */,
+				04C92ACE2C6260B5005F397F /* MainView.swift in Sources */,
+				04C92AD02C626281005F397F /* SplashView.swift in Sources */,
+				04C92AC82C625E7A005F397F /* Font+.swift in Sources */,
+				04C92AC62C625E71005F397F /* Color+.swift in Sources */,
+				04C92AC42C625E3F005F397F /* Text.swift in Sources */,
+				04C92AD42C6A4ACE005F397F /* WebCamView.swift in Sources */,
+				04C92AC32C625E3F005F397F /* Colors.swift in Sources */,
+				04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */,
+				04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */,
+				04C92AC22C625E3F005F397F /* Fonts.swift in Sources */,
 				04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */,
+				04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04C92AD72C6A5BD8005F397F /* XCRemoteSwiftPackageReference "SlidingTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QuynhNguyen/SlidingTabView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04C92AD82C6A5BD8005F397F /* SlidingTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C92AD72C6A5BD8005F397F /* XCRemoteSwiftPackageReference "SlidingTabView" */;
+			productName = SlidingTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04BE4F252C47FC72002F777E /* Project object */;
 }
