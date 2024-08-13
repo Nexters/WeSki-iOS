@@ -9,7 +9,7 @@ import SwiftUI
 import SlidingTabView
 import WebKit
 
-struct WebCamView: View {
+struct WebCamTabView: View {
     @State private var selectedTabIndex = 0
     @State private var webViewHeight: CGFloat = .zero
     
@@ -37,7 +37,7 @@ struct WebCamView: View {
                     default:
                         EmptyView()
                     }
-                    SnowQualityView()
+                    SnowQualityTabView()
                 }
             }
         }
@@ -83,5 +83,5 @@ struct WebView: UIViewRepresentable {
 }
 
 #Preview {
-    WebCamView()
+    WebCamTabView()
 }

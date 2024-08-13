@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SnowQualityView: View {
+struct SnowQualityTabView: View {
     @State private var selectedIndex = 0
     
     let options = ["괜찮아요", "별로에요"]
@@ -65,5 +65,5 @@ struct SnowQualityView: View {
 }
 
 #Preview {
-    SnowQualityView()
+    SnowQualityTabView()
 }

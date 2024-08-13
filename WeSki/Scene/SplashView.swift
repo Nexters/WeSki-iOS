@@ -10,9 +10,9 @@ import SwiftUI
 struct SplashView: View {
     var body: some View {
         ZStack {
-            LinearGradient(colors: [.homeGradientTop, .homeGradientBottom],
-                           startPoint: .top, endPoint: .bottom)
-                .edgesIgnoringSafeArea(.all)
+            LinearGradient(colors: [.blue, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .ignoresSafeArea()
+            
             VStack(alignment: .center) {
                 Text("스플래시")
                     .foregroundStyle(.white)

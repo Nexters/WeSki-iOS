@@ -10,18 +10,19 @@
 		04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE4F302C47FC72002F777E /* WeSkiApp.swift */; };
 		04BE4F352C47FC76002F777E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F342C47FC76002F777E /* Assets.xcassets */; };
 		04BE4F382C47FC76002F777E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F372C47FC76002F777E /* Preview Assets.xcassets */; };
-		04C92AC22C625E3F005F397F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ABF2C625E3F005F397F /* Fonts.swift */; };
-		04C92AC32C625E3F005F397F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC02C625E3F005F397F /* Colors.swift */; };
 		04C92AC42C625E3F005F397F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC12C625E3F005F397F /* Text.swift */; };
 		04C92AC62C625E71005F397F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC52C625E71005F397F /* Color+.swift */; };
 		04C92AC82C625E7A005F397F /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC72C625E7A005F397F /* Font+.swift */; };
 		04C92ACE2C6260B5005F397F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACD2C6260B5005F397F /* MainView.swift */; };
 		04C92AD02C626281005F397F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACF2C626281005F397F /* SplashView.swift */; };
 		04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD12C63BAD4005F397F /* MainResortView.swift */; };
-		04C92AD42C6A4ACE005F397F /* WebCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD32C6A4ACE005F397F /* WebCamView.swift */; };
+		04C92AD42C6A4ACE005F397F /* WebCamTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */; };
 		04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD52C6A5600005F397F /* ResortInfoView.swift */; };
 		04C92AD92C6A5BD8005F397F /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 04C92AD82C6A5BD8005F397F /* SlidingTabView */; };
-		04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADA2C6A640A005F397F /* SnowQualityView.swift */; };
+		04C92ADB2C6A640A005F397F /* SnowQualityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */; };
+		04C92ADD2C6B0917005F397F /* WeatherTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADC2C6B0917005F397F /* WeatherTabView.swift */; };
+		04C92ADF2C6B096A005F397F /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADE2C6B096A005F397F /* Resort.swift */; };
+		04C92AE12C6B0970005F397F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE02C6B0970005F397F /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,17 +30,18 @@
 		04BE4F302C47FC72002F777E /* WeSkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSkiApp.swift; sourceTree = "<group>"; };
 		04BE4F342C47FC76002F777E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE4F372C47FC76002F777E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04C92ABF2C625E3F005F397F /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		04C92AC02C625E3F005F397F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		04C92AC12C625E3F005F397F /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		04C92AC52C625E71005F397F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		04C92AC72C625E7A005F397F /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		04C92ACD2C6260B5005F397F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04C92ACF2C626281005F397F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		04C92AD12C63BAD4005F397F /* MainResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResortView.swift; sourceTree = "<group>"; };
-		04C92AD32C6A4ACE005F397F /* WebCamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCamView.swift; sourceTree = "<group>"; };
+		04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCamTabView.swift; sourceTree = "<group>"; };
 		04C92AD52C6A5600005F397F /* ResortInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfoView.swift; sourceTree = "<group>"; };
-		04C92ADA2C6A640A005F397F /* SnowQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowQualityView.swift; sourceTree = "<group>"; };
+		04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowQualityTabView.swift; sourceTree = "<group>"; };
+		04C92ADC2C6B0917005F397F /* WeatherTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTabView.swift; sourceTree = "<group>"; };
+		04C92ADE2C6B096A005F397F /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		04C92AE02C6B0970005F397F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,6 @@
 		04C92ABE2C625E1B005F397F /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				04C92AC02C625E3F005F397F /* Colors.swift */,
-				04C92ABF2C625E3F005F397F /* Fonts.swift */,
 				04C92AC12C625E3F005F397F /* Text.swift */,
 				04C92AC52C625E71005F397F /* Color+.swift */,
 				04C92AC72C625E7A005F397F /* Font+.swift */,
@@ -122,6 +122,8 @@
 		04C92ACA2C625ED2005F397F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04C92ADE2C6B096A005F397F /* Resort.swift */,
+				04C92AE02C6B0970005F397F /* Weather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,8 +143,9 @@
 				04C92AD12C63BAD4005F397F /* MainResortView.swift */,
 				04C92AD52C6A5600005F397F /* ResortInfoView.swift */,
 				04C92ACF2C626281005F397F /* SplashView.swift */,
-				04C92AD32C6A4ACE005F397F /* WebCamView.swift */,
-				04C92ADA2C6A640A005F397F /* SnowQualityView.swift */,
+				04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */,
+				04C92ADC2C6B0917005F397F /* WeatherTabView.swift */,
+				04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -223,16 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C92ADD2C6B0917005F397F /* WeatherTabView.swift in Sources */,
 				04C92ACE2C6260B5005F397F /* MainView.swift in Sources */,
+				04C92ADF2C6B096A005F397F /* Resort.swift in Sources */,
 				04C92AD02C626281005F397F /* SplashView.swift in Sources */,
+				04C92AE12C6B0970005F397F /* Weather.swift in Sources */,
 				04C92AC82C625E7A005F397F /* Font+.swift in Sources */,
 				04C92AC62C625E71005F397F /* Color+.swift in Sources */,
 				04C92AC42C625E3F005F397F /* Text.swift in Sources */,
-				04C92AD42C6A4ACE005F397F /* WebCamView.swift in Sources */,
-				04C92AC32C625E3F005F397F /* Colors.swift in Sources */,
-				04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */,
+				04C92AD42C6A4ACE005F397F /* WebCamTabView.swift in Sources */,
+				04C92ADB2C6A640A005F397F /* SnowQualityTabView.swift in Sources */,
 				04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */,
-				04C92AC22C625E3F005F397F /* Fonts.swift in Sources */,
 				04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */,
 				04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */,
 			);

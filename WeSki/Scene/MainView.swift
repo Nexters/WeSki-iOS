@@ -17,7 +17,7 @@ struct MainView: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVStack {
                         ForEach(0..<7) { i in
-                            NavigationLink(destination: WebCamView()) {
+                            NavigationLink(destination: WebCamTabView()) {
                                 MainResortView()
                                     .background(.green)
                                     .cornerRadius(15)
