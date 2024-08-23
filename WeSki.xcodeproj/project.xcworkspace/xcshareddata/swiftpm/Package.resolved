@@ -1,6 +1,24 @@
 {
-  "originHash" : "c44334cc594d67101d101efa5a3c04eb5ca3a1461fee9a007f480258d19df196",
+  "originHash" : "5a2ff067fb76a70024fca053177abc19ec8ff2be5f18837d44033a0470288a3d",
   "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "simpletoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sanzaru/SimpleToast.git",
+      "state" : {
+        "revision" : "8dbc2e7c33cda25c0b2efafd59716cb9820c83eb",
+        "version" : "0.8.1"
+      }
+    },
     {
       "identity" : "slidingtabview",
       "kind" : "remoteSourceControl",

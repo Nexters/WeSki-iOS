@@ -15,7 +15,7 @@ public protocol WeSkiFontPresentation {
 }
 
 enum WeSkiFontStyle: WeSkiSystemFont {
-    case h1(UIFont.Weight), h2(UIFont.Weight), h3(UIFont.Weight)
+    case h1(UIFont.Weight), h15(UIFont.Weight), h2(UIFont.Weight), h3(UIFont.Weight)
     case title1(UIFont.Weight), title2(UIFont.Weight), title3(UIFont.Weight)
     case body1(UIFont.Weight), body2(UIFont.Weight), body3(UIFont.Weight)
 }
@@ -24,23 +24,25 @@ extension WeSkiFontStyle {
     var uiFont: UIFont {
         switch self {
         case .h1(let weight):
-            return .systemFont(ofSize: 46, weight: weight)
-        case .h2(let weight):
-            return .systemFont(ofSize: 35, weight: weight)
-        case .h3(let weight):
             return .systemFont(ofSize: 32, weight: weight)
+        case .h15(let weight):
+            return .systemFont(ofSize: 30, weight: weight)
+        case .h2(let weight):
+            return .systemFont(ofSize: 24, weight: weight)
+        case .h3(let weight):
+            return .systemFont(ofSize: 22, weight: weight)
         case .title1(let weight):
-            return .systemFont(ofSize: 29, weight: weight)
-        case .title2(let weight):
-            return .systemFont(ofSize: 26, weight: weight)
-        case .title3(let weight):
-            return .systemFont(ofSize: 23, weight: weight)
-        case .body1(let weight):
             return .systemFont(ofSize: 20, weight: weight)
+        case .title2(let weight):
+            return .systemFont(ofSize: 18, weight: weight)
+        case .title3(let weight):
+            return .systemFont(ofSize: 16, weight: weight)
+        case .body1(let weight):
+            return .systemFont(ofSize: 14, weight: weight)
         case .body2(let weight):
-            return .systemFont(ofSize: 19, weight: weight)
+            return .systemFont(ofSize: 13, weight: weight)
         case .body3(let weight):
-            return .systemFont(ofSize: 17, weight: weight)
+            return .systemFont(ofSize: 12, weight: weight)
         }
     }
     
@@ -48,7 +50,3 @@ extension WeSkiFontStyle {
         return Font(uiFont)
     }
 }
-
-//extension Font {
-//    static let h1 = WeSkiFontStyle.h1()
-//}

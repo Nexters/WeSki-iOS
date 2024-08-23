@@ -20,9 +20,6 @@ struct WeSkiApp: App {
                 else {
                     SplashView()
                         .onAppear(perform: {
-                            
-                        })
-                        .onAppear(perform: {
                             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                                 showHomeView = true
                             }

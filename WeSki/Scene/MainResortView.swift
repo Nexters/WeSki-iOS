@@ -8,32 +8,53 @@
 import SwiftUI
 
 struct MainResortView: View {
+    
+    var resort: Resort
+    
+    let today = Date.now
+    
     var body: some View {
-        VStack {
-            ResortInfoView()
-            
+        VStack(spacing: 0) {
+            ResortInfoView(resortInfo: resort)
+            Spacer().frame(height: 23)
+            Divider().background(Color.gray80)
+                .padding(.horizontal, 24)
+            Spacer().frame(height: 14)
             ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack {
-                    ForEach(0..<7) { i in
-                        VStack {
-                            Text("\(i)요일")
-                            Image(systemName: "cloud")
+                LazyHStack(spacing: 2) { // Resort Weather
+                    ForEach(0..<resort.weather.count) { i in
+                        VStack(spacing: 0) {
+                            Body3Text("\(today.nextDay(i).koreanWeekday())")
+                                .foregroundColor(.gray60)
+                            Spacer().frame(height: 7)
+                            resort.weather[i].name.image
                                 .resizable()
-                                .frame(width: 54, height: 54)
-                            Text("-\(i) 도씨")
-                            Text("\(i) 도씨")
+                                .frame(width: 32, height: 32)
+                            Spacer().frame(height: 12)
+                            Title3Text("\(resort.weatherDetail.weekWeather[i].minTm)°", weight: .semibold)
+                                .foregroundColor(.gray90) // 최저온도
+                            Body3Text("\(resort.weatherDetail.weekWeather[i].maxTm)°")
+                                .foregroundColor(.gray60) // 현재온도
                         }
-                        .background(.yellow)
+                        .padding(.all, 16)
+                        .background(i == 0 ? Color.main05 : Color.white)
+                        .cornerRadius(40)
+                        .overlay {
+                            if i == 0 {
+                                RoundedRectangle(cornerRadius: 40)
+                                    .stroke(Color.main01, lineWidth: 1)
+                            }
+                        }
                     }
                 }
+                .padding(.all, 1)
             }
-            
+            .padding(.horizontal, 22)
+            .padding(.bottom, 17)
         }
-        .padding()
-        
     }
 }
 
-#Preview {
-    MainResortView()
-}
+//#Preview {
+//    MainResortView(resort: ResortEnum.곤지암)
+//}

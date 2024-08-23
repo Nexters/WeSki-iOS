@@ -10,19 +10,35 @@
 		04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE4F302C47FC72002F777E /* WeSkiApp.swift */; };
 		04BE4F352C47FC76002F777E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F342C47FC76002F777E /* Assets.xcassets */; };
 		04BE4F382C47FC76002F777E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE4F372C47FC76002F777E /* Preview Assets.xcassets */; };
-		04C92AC42C625E3F005F397F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC12C625E3F005F397F /* Text.swift */; };
+		04C92AC42C625E3F005F397F /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC12C625E3F005F397F /* Text+.swift */; };
 		04C92AC62C625E71005F397F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC52C625E71005F397F /* Color+.swift */; };
 		04C92AC82C625E7A005F397F /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AC72C625E7A005F397F /* Font+.swift */; };
 		04C92ACE2C6260B5005F397F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACD2C6260B5005F397F /* MainView.swift */; };
 		04C92AD02C626281005F397F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ACF2C626281005F397F /* SplashView.swift */; };
 		04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD12C63BAD4005F397F /* MainResortView.swift */; };
-		04C92AD42C6A4ACE005F397F /* WebCamTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */; };
+		04C92AD42C6A4ACE005F397F /* ResortDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD32C6A4ACE005F397F /* ResortDetailView.swift */; };
 		04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AD52C6A5600005F397F /* ResortInfoView.swift */; };
 		04C92AD92C6A5BD8005F397F /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 04C92AD82C6A5BD8005F397F /* SlidingTabView */; };
-		04C92ADB2C6A640A005F397F /* SnowQualityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */; };
+		04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADA2C6A640A005F397F /* SnowQualityView.swift */; };
 		04C92ADD2C6B0917005F397F /* WeatherTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADC2C6B0917005F397F /* WeatherTabView.swift */; };
-		04C92ADF2C6B096A005F397F /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92ADE2C6B096A005F397F /* Resort.swift */; };
-		04C92AE12C6B0970005F397F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE02C6B0970005F397F /* Weather.swift */; };
+		04C92AE32C6DB6E3005F397F /* NavBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE22C6DB6E3005F397F /* NavBackButtonView.swift */; };
+		04C92AE52C6DC553005F397F /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE42C6DC553005F397F /* Modifier.swift */; };
+		04C92AE72C6DD12E005F397F /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE62C6DD12E005F397F /* View+.swift */; };
+		04C92AE92C6DD5C0005F397F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AE82C6DD5C0005F397F /* WebView.swift */; };
+		04C92AEE2C70DEFB005F397F /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AED2C70DEFB005F397F /* Image+.swift */; };
+		04C92AF02C71E39B005F397F /* SlopeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AEF2C71E39B005F397F /* SlopeTabView.swift */; };
+		04C92AF22C722494005F397F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AF12C722494005F397F /* Router.swift */; };
+		04C92AF52C722580005F397F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04C92AF42C722580005F397F /* Alamofire */; };
+		04C92AF72C722785005F397F /* ResortEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AF62C722785005F397F /* ResortEnum.swift */; };
+		04C92AF92C739C3F005F397F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AF82C739C3F005F397F /* Models.swift */; };
+		04C92AFB2C73A542005F397F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AFA2C73A542005F397F /* Network.swift */; };
+		04C92AFD2C73A92D005F397F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AFC2C73A92D005F397F /* NetworkManager.swift */; };
+		04C92B002C74D812005F397F /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92AFF2C74D812005F397F /* Date+.swift */; };
+		04C92B032C76399B005F397F /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C92B012C76399B005F397F /* snow.sks */; };
+		04C92B042C76399B005F397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C92B022C76399B005F397F /* Assets.xcassets */; };
+		04C92B062C763EBD005F397F /* SnowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92B052C763EBD005F397F /* SnowScene.swift */; };
+		04C92B082C78DF63005F397F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C92B072C78DF63005F397F /* UserDefaultsManager.swift */; };
+		04C92B0B2C78E652005F397F /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 04C92B0A2C78E652005F397F /* SimpleToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,18 +46,33 @@
 		04BE4F302C47FC72002F777E /* WeSkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSkiApp.swift; sourceTree = "<group>"; };
 		04BE4F342C47FC76002F777E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE4F372C47FC76002F777E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04C92AC12C625E3F005F397F /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		04C92AC12C625E3F005F397F /* Text+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
 		04C92AC52C625E71005F397F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		04C92AC72C625E7A005F397F /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		04C92ACD2C6260B5005F397F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04C92ACF2C626281005F397F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		04C92AD12C63BAD4005F397F /* MainResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResortView.swift; sourceTree = "<group>"; };
-		04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCamTabView.swift; sourceTree = "<group>"; };
+		04C92AD32C6A4ACE005F397F /* ResortDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailView.swift; sourceTree = "<group>"; };
 		04C92AD52C6A5600005F397F /* ResortInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfoView.swift; sourceTree = "<group>"; };
-		04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowQualityTabView.swift; sourceTree = "<group>"; };
+		04C92ADA2C6A640A005F397F /* SnowQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowQualityView.swift; sourceTree = "<group>"; };
 		04C92ADC2C6B0917005F397F /* WeatherTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTabView.swift; sourceTree = "<group>"; };
-		04C92ADE2C6B096A005F397F /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
-		04C92AE02C6B0970005F397F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		04C92AE22C6DB6E3005F397F /* NavBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButtonView.swift; sourceTree = "<group>"; };
+		04C92AE42C6DC553005F397F /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		04C92AE62C6DD12E005F397F /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		04C92AE82C6DD5C0005F397F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		04C92AED2C70DEFB005F397F /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		04C92AEF2C71E39B005F397F /* SlopeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlopeTabView.swift; sourceTree = "<group>"; };
+		04C92AF12C722494005F397F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		04C92AF62C722785005F397F /* ResortEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortEnum.swift; sourceTree = "<group>"; };
+		04C92AF82C739C3F005F397F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		04C92AFA2C73A542005F397F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		04C92AFC2C73A92D005F397F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04C92AFE2C73AFC1005F397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04C92AFF2C74D812005F397F /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		04C92B012C76399B005F397F /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
+		04C92B022C76399B005F397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C92B052C763EBD005F397F /* SnowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowScene.swift; sourceTree = "<group>"; };
+		04C92B072C78DF63005F397F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C92AD92C6A5BD8005F397F /* SlidingTabView in Frameworks */,
+				04C92B0B2C78E652005F397F /* SimpleToast in Frameworks */,
+				04C92AF52C722580005F397F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +108,7 @@
 		04BE4F2F2C47FC72002F777E /* WeSki */ = {
 			isa = PBXGroup;
 			children = (
+				04C92AFE2C73AFC1005F397F /* Info.plist */,
 				04C92ABD2C625E0C005F397F /* App */,
 				04C92ACA2C625ED2005F397F /* Model */,
 				04C92AC92C625EC9005F397F /* Network */,
@@ -105,9 +139,11 @@
 		04C92ABE2C625E1B005F397F /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				04C92AC12C625E3F005F397F /* Text.swift */,
+				04C92AFF2C74D812005F397F /* Date+.swift */,
+				04C92AC12C625E3F005F397F /* Text+.swift */,
 				04C92AC52C625E71005F397F /* Color+.swift */,
 				04C92AC72C625E7A005F397F /* Font+.swift */,
+				04C92AED2C70DEFB005F397F /* Image+.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -115,6 +151,9 @@
 		04C92AC92C625EC9005F397F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				04C92AF12C722494005F397F /* Router.swift */,
+				04C92AFC2C73A92D005F397F /* NetworkManager.swift */,
+				04C92AFA2C73A542005F397F /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -122,8 +161,9 @@
 		04C92ACA2C625ED2005F397F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				04C92ADE2C6B096A005F397F /* Resort.swift */,
-				04C92AE02C6B0970005F397F /* Weather.swift */,
+				04C92AF62C722785005F397F /* ResortEnum.swift */,
+				04C92AF82C739C3F005F397F /* Models.swift */,
+				04C92B072C78DF63005F397F /* UserDefaultsManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,15 +179,31 @@
 		04C92ACC2C62604B005F397F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				04C92ACF2C626281005F397F /* SplashView.swift */,
 				04C92ACD2C6260B5005F397F /* MainView.swift */,
 				04C92AD12C63BAD4005F397F /* MainResortView.swift */,
 				04C92AD52C6A5600005F397F /* ResortInfoView.swift */,
-				04C92ACF2C626281005F397F /* SplashView.swift */,
-				04C92AD32C6A4ACE005F397F /* WebCamTabView.swift */,
+				04C92AD32C6A4ACE005F397F /* ResortDetailView.swift */,
 				04C92ADC2C6B0917005F397F /* WeatherTabView.swift */,
-				04C92ADA2C6A640A005F397F /* SnowQualityTabView.swift */,
+				04C92AEF2C71E39B005F397F /* SlopeTabView.swift */,
+				04C92ADA2C6A640A005F397F /* SnowQualityView.swift */,
+				04C92B052C763EBD005F397F /* SnowScene.swift */,
+				04C92B012C76399B005F397F /* snow.sks */,
+				04C92B022C76399B005F397F /* Assets.xcassets */,
+				04C92AEA2C6DEA5D005F397F /* Common */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		04C92AEA2C6DEA5D005F397F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04C92AE22C6DB6E3005F397F /* NavBackButtonView.swift */,
+				04C92AE42C6DC553005F397F /* Modifier.swift */,
+				04C92AE82C6DD5C0005F397F /* WebView.swift */,
+				04C92AE62C6DD12E005F397F /* View+.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +224,8 @@
 			name = WeSki;
 			packageProductDependencies = (
 				04C92AD82C6A5BD8005F397F /* SlidingTabView */,
+				04C92AF42C722580005F397F /* Alamofire */,
+				04C92B0A2C78E652005F397F /* SimpleToast */,
 			);
 			productName = WeSki;
 			productReference = 04BE4F2D2C47FC72002F777E /* WeSki.app */;
@@ -199,6 +257,8 @@
 			mainGroup = 04BE4F242C47FC72002F777E;
 			packageReferences = (
 				04C92AD72C6A5BD8005F397F /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+				04C92AF32C722580005F397F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				04C92B092C78E652005F397F /* XCRemoteSwiftPackageReference "SimpleToast" */,
 			);
 			productRefGroup = 04BE4F2E2C47FC72002F777E /* Products */;
 			projectDirPath = "";
@@ -215,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BE4F382C47FC76002F777E /* Preview Assets.xcassets in Resources */,
+				04C92B032C76399B005F397F /* snow.sks in Resources */,
+				04C92B042C76399B005F397F /* Assets.xcassets in Resources */,
 				04BE4F352C47FC76002F777E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,19 +288,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C92B002C74D812005F397F /* Date+.swift in Sources */,
 				04C92ADD2C6B0917005F397F /* WeatherTabView.swift in Sources */,
 				04C92ACE2C6260B5005F397F /* MainView.swift in Sources */,
-				04C92ADF2C6B096A005F397F /* Resort.swift in Sources */,
+				04C92AF02C71E39B005F397F /* SlopeTabView.swift in Sources */,
 				04C92AD02C626281005F397F /* SplashView.swift in Sources */,
-				04C92AE12C6B0970005F397F /* Weather.swift in Sources */,
+				04C92AFD2C73A92D005F397F /* NetworkManager.swift in Sources */,
+				04C92AE52C6DC553005F397F /* Modifier.swift in Sources */,
 				04C92AC82C625E7A005F397F /* Font+.swift in Sources */,
 				04C92AC62C625E71005F397F /* Color+.swift in Sources */,
-				04C92AC42C625E3F005F397F /* Text.swift in Sources */,
-				04C92AD42C6A4ACE005F397F /* WebCamTabView.swift in Sources */,
-				04C92ADB2C6A640A005F397F /* SnowQualityTabView.swift in Sources */,
+				04C92AE32C6DB6E3005F397F /* NavBackButtonView.swift in Sources */,
+				04C92AC42C625E3F005F397F /* Text+.swift in Sources */,
+				04C92B082C78DF63005F397F /* UserDefaultsManager.swift in Sources */,
+				04C92AD42C6A4ACE005F397F /* ResortDetailView.swift in Sources */,
+				04C92AF22C722494005F397F /* Router.swift in Sources */,
+				04C92AE92C6DD5C0005F397F /* WebView.swift in Sources */,
+				04C92ADB2C6A640A005F397F /* SnowQualityView.swift in Sources */,
+				04C92B062C763EBD005F397F /* SnowScene.swift in Sources */,
+				04C92AFB2C73A542005F397F /* Network.swift in Sources */,
+				04C92AEE2C70DEFB005F397F /* Image+.swift in Sources */,
+				04C92AE72C6DD12E005F397F /* View+.swift in Sources */,
 				04C92AD62C6A5600005F397F /* ResortInfoView.swift in Sources */,
 				04BE4F312C47FC72002F777E /* WeSkiApp.swift in Sources */,
 				04C92AD22C63BAD4005F397F /* MainResortView.swift in Sources */,
+				04C92AF72C722785005F397F /* ResortEnum.swift in Sources */,
+				04C92AF92C739C3F005F397F /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -354,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -370,23 +444,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"WeSki/Preview Content\"";
 				DEVELOPMENT_TEAM = HQ9MZ38KLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSki/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeSki;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokojong.WeSki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -405,23 +481,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"WeSki/Preview Content\"";
 				DEVELOPMENT_TEAM = HQ9MZ38KLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSki/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeSki;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokojong.WeSki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -466,6 +544,22 @@
 				minimumVersion = 1.0.2;
 			};
 		};
+		04C92AF32C722580005F397F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		04C92B092C78E652005F397F /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -473,6 +567,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04C92AD72C6A5BD8005F397F /* XCRemoteSwiftPackageReference "SlidingTabView" */;
 			productName = SlidingTabView;
+		};
+		04C92AF42C722580005F397F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C92AF32C722580005F397F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		04C92B0A2C78E652005F397F /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C92B092C78E652005F397F /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

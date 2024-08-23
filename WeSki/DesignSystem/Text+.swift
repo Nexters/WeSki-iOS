@@ -1,8 +1,8 @@
 //
 //  Text.swift
-//  REGO
+//  WeSki
 //
-//  Created by 최모지 on 2/5/24.
+//  Created by kokojong on 8/6/24.
 //
 
 import SwiftUI
@@ -20,9 +20,28 @@ struct H1Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.h1(weight).font)
+    }
+}
+
+struct H15Text: View {
+    var text: String
+    var weight: UIFont.Weight
+    
+    init(_ text: String, weight: UIFont.Weight) {
+        self.text = text
+        self.weight = weight
+    }
+    
+    init(_ text: String) {
+        self.text = text
+        self.weight = .regular
+    }
+    
+    var body: some View {
+        Text(text).font(WeSkiFontStyle.h15(weight).font)
     }
 }
 
@@ -39,7 +58,7 @@ struct H2Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.h2(weight).font)
     }
@@ -58,7 +77,7 @@ struct H3Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.h3(weight).font)
     }
@@ -77,7 +96,7 @@ struct Title1Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.title1(weight).font)
     }
@@ -96,7 +115,7 @@ struct Title2Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.title2(weight).font)
     }
@@ -115,7 +134,7 @@ struct Title3Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.title3(weight).font)
     }
@@ -134,7 +153,7 @@ struct Body1Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.body1(weight).font)
     }
@@ -153,7 +172,7 @@ struct Body2Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.body2(weight).font)
     }
@@ -172,7 +191,7 @@ struct Body3Text: View {
         self.text = text
         self.weight = .regular
     }
-
+    
     var body: some View {
         Text(text).font(WeSkiFontStyle.body3(weight).font)
     }
