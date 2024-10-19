@@ -89,5 +89,5 @@ fastlane/test_output
 
 iOSInjectionProject
 
-Network/Network
+Network/Network.swift
 
