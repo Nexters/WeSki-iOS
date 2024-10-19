@@ -49,16 +49,19 @@ struct ResortDetailView: View {
                         
                         SlidingTabView(selection: self.$selectedTabIndex, tabs: ["웹캠 정보", "날씨", "슬로프"], font: WeSkiFontStyle.title3(.semibold).font, activeAccentColor: .gray90, inactiveAccentColor: .gray90, selectionBarColor: .gray90)
                             .background(.white)
+                            
                         
                         switch self.selectedTabIndex {
                         case 0:
                             WebView(url: resortInfo.resort.toWebcamURL().absoluteString, height: $webViewHeight)
                                 .frame(height: webViewHeight) // 웹뷰의 높이를 동적으로 설정
+                                .offset(y: -7)
                         case 1:
                             WeatherTabView(resortInfo: resortInfo)
                         case 2:
                             SlopeTabView()
                             Rectangle().frame(height: 6).foregroundColor(Color.gray20)
+                            Rectangle().frame(height: 34).foregroundStyle(.white)
                             WebView(url: resortInfo.resort.toSlopeURL().absoluteString, height: $webViewHeight)
                                 .frame(height: webViewHeight)
                         default:

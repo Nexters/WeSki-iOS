@@ -17,8 +17,14 @@ struct ResortInfoView: View {
                 Title1Text("\(resortInfo.resort.koreanName)", weight: .bold)
                     .foregroundColor(.gray90)
                 Spacer().frame(height: 5)
-                Body1Text("운행중인 슬로프 \(resortInfo.slopeNum)개", weight: .medium)
-                    .foregroundColor(.gray60)
+                if resortInfo.slopeNum > 0 {
+                    Body1Text("운행중인 슬로프 \(resortInfo.slopeNum)개", weight: .medium)
+                        .foregroundColor(.gray60)
+                } else {
+                    Body1Text("개장일이 곧 공개될 예정이에요", weight: .medium)
+                        .foregroundColor(.gray60)
+                }
+                
             }
             Spacer()
             VStack(alignment: .trailing, spacing: 0) {

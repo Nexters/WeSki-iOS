@@ -17,11 +17,15 @@ struct MainResortView: View {
         VStack(spacing: 0) {
             ResortInfoView(resortInfo: resort)
             Spacer().frame(height: 23)
-            Divider().background(Color.gray80)
+            Rectangle().frame(height: 1)
+                .foregroundColor(.gray80)
                 .padding(.horizontal, 24)
+                .opacity(0.1)
             Spacer().frame(height: 14)
             ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack(spacing: 2) { // Resort Weather
+                HStack(spacing: 2) { // Resort Weather
+                    Spacer().frame(width: 22) // spacer 2
+                    
                     ForEach(0..<resort.weather.count) { i in
                         VStack(spacing: 0) {
                             Body3Text("\(today.nextDay(i).koreanWeekday())")
@@ -46,10 +50,11 @@ struct MainResortView: View {
                             }
                         }
                     }
+                    
+                    Spacer().frame(width: 22)
                 }
                 .padding(.all, 1)
             }
-            .padding(.horizontal, 22)
             .padding(.bottom, 17)
         }
     }

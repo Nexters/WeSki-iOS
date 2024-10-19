@@ -29,10 +29,12 @@ struct WeatherTabView: View {
                     Body1Text("최고 \(resortInfo.weatherDetail.todayWeather.maxTm)° 최저 \(resortInfo.weatherDetail.todayWeather.minTm)°", weight: .regular)
                         .foregroundStyle(Color.gray60)
                 }
+                .padding(.horizontal, 24)
                 
                 Spacer().frame(height: 50)
                 
-                Divider().background(Color.gray30)
+                Rectangle().frame(height: 1).foregroundStyle(Color.gray30)
+                    .padding(.horizontal, 24)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 24) { // Resort Weather
@@ -55,6 +57,7 @@ struct WeatherTabView: View {
                 }
                 .padding(.top, 26)
                 .padding(.bottom, 40)
+                .padding(.horizontal, 24)
                 
                 Rectangle().frame(height: 6).foregroundColor(Color.gray20)
                 
@@ -63,6 +66,7 @@ struct WeatherTabView: View {
                     Spacer().frame(height: 24)
                 }
                 .padding(.top, 32)
+                .padding(.horizontal, 24)
                 
                 ForEach(0..<resortInfo.weatherDetail.weekWeather.count) { i in
                     HStack(alignment: .center, spacing: 0) {
@@ -94,11 +98,13 @@ struct WeatherTabView: View {
                     }
                     .frame(height: 36)
                     .padding(.vertical, 6)
+                    
                     Rectangle().frame(height: 1).foregroundColor(Color.gray20)
                 }
+                .padding(.horizontal, 24)
             } // vstack
             .padding(.top, 32)
-            .padding(.horizontal, 24)
+//            .padding(.horizontal, 24)
         }
         .background(.white)
     }
